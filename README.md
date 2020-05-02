@@ -1,7 +1,7 @@
 # Flu Shot Learning
 Repository for "Flu Shot Learning" Competition, DrivenData
 
-2 May 2020:
+### 2 May 2020:
 
 Today, I'll read up on background information about the topic, figure out what the topics are like, and do some exploratory data analysis (EDA). 
 
@@ -30,4 +30,13 @@ Interesting questions that I could explore:
 		are so disproportionately different across these two age groups, it could be worth either
 		creating an indicator variable for age group or just creating a new model for each altogether)
 		
+	- How do demographics relate to getting flu shots?
+		- From Aguero et al. (2011), it seems like the following factors relate to people following
+		H1N1 intervention measures (social distancing, hand-washing, etc.) prior to the vaccine 
+		being widely available.
+			- Gender: women more likely
+			- Education level: higher educated people more likely
+			- People who have higher concerns about the virus are more likely
+			- People who perceive the government as a useful source of information are more likely
+			- People who perceive the risk factors of a vaccine to be lower are more likely
 	
