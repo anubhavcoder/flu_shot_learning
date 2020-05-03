@@ -72,5 +72,8 @@ Interesting questions that I could explore:
 				- Belief that the virus posed a low-risk threat
 				- Passiveness (e.g., "I never got around to doing it")
 				
+### 3 May 2020:
+	- Today, I will create a few visualizations to better understand the dataset and what values can predict flu vaccination rates, using the knowledge gathered yesterday.
+				
 	
 	
