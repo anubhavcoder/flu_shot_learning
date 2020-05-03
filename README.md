@@ -30,7 +30,7 @@ Interesting questions that I could explore:
 		are so disproportionately different across these two age groups, it could be worth either
 		creating an indicator variable for age group or just creating a new model for each altogether)
 		
-	- How do demographics relate to getting flu shots?
+	- What does the scientific literature say?
 		- From Aguero et al. (2011), it seems like the following factors relate to people following
 		H1N1 intervention measures (social distancing, hand-washing, etc.) prior to the vaccine 
 		being widely available.
@@ -39,4 +39,38 @@ Interesting questions that I could explore:
 			- People who have higher concerns about the virus are more likely
 			- People who perceive the government as a useful source of information are more likely
 			- People who perceive the risk factors of a vaccine to be lower are more likely
+			
+		- From Betsch and Wicker (2012), the following factors influence whether a person intends
+		to get a vaccination (for flu)
+			- (strongest effect) own perceived risk of contracting flu
+			- Recommendation to get vaccine (significant, but weaker effect)
+			- Belief in vaccine side effects (stronger the belief in side effects, the less likely they were 
+			to get vaccinated)
+			
+		- From Ramsey and Marczinski (2011), the following factors influence whether or not a
+		person (in this case, a college student) gets a flu vaccination:
+			- For the people who were willing to get the H1N1 flu vaccine, these were the reasons 
+			(in descending order of prevalence, as a \% of the people surveyed):
+				- They didn't think it would work
+				- Worried about side effects
+				- Believe vaccine to not be safe
+				- Believing that they are not at risk
+			- For the people who were not willing to get a flu vaccine, these were the reasons
+			(in descending order of prevalence, as a \% of the people surveyed):
+				- To avoid flu/illness
+				- Belief that H1N1 is deadlier than seasonal flu
+				- Living with people who are high risk
+				- Being a high-risk person
+				
+		- From Velan et al. (2011), the following factors pushed people to not get the H1N1 vaccine:
+				- Gender: females less likely than males to get H1N1 vaccine
+				- Income: lower income people less likely to get H1N1 vaccine
+				- Belief that they didn't need the vaccine
+				- Belief that vaccine is unsafe
+				- Mistrust in the vaccine
+				- Don't believe in vaccines in general
+				- Belief that the virus posed a low-risk threat
+				- Passiveness (e.g., "I never got around to doing it")
+				
+	
 	
