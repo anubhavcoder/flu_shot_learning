@@ -8,27 +8,6 @@ The link for the challenge is: https://www.drivendata.org/competitions/66/flu-sh
 
 My approach takes the following steps:
 
-\begin{itemize}
-	\item Do background research, learn more about the problem at hand.
-	\item Think of hypotheses to test from the data
-	\item Perform exploratory data analysis (EDA) to learn more about the data
-	\item Create visualizations
-	\item Design, implement, and evaluate ML models
-		\begin{itemize}
-			\item Logistic regression (as baseline)
-			\item Random forest
-			\item Feedforward neural network	
-		\end{itemize}
-	\item subset the data, run different ML models on different subsets of the data. 
-	If this gives promising results (e.g., one model architecture does better on a certain subset of 
-	the data), then we can use an ensemble of various models.
-	\item Work with test set
-		\begin{itemize}
-			\item Compare training and test set, check for things such as consistency in class balance, similar proportions of certain values, etc.
-			\item Run model on test set
-			\item Get predictions, submit predictions
-		\end{itemize}
-\end{itemize}
 
 	- Do background research, learn more about the problem at hand.
 	- Think of hypotheses to test from the data
