@@ -15,6 +15,7 @@ My approach takes the following steps:
 	- Think of hypotheses to test from the data
 	- Perform exploratory data analysis (EDA) to learn more about the data
 	- Create visualizations
+	- Perform preprocessing on the data and figure out an appropriate way to impute missing data
 	- Design, implement, and evaluate ML models
 		- Logistic regression (as baseline)
 		- Random forest
