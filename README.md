@@ -2,6 +2,8 @@ This repo details my progress in DrivenData's "Flu Shot Learning: Predict H1N1 a
 
 The 'data_exploration.ipynb' Jupyter notebook details my EDA process. 
 
+The 'data_imputation.ipynb' Jupyter notebook details how I went about with imputing missing data. I considered the pros and cons of various approaches before settling on an imputation method. 
+
 The 'models.ipynb' Jupyter notebook details my model-building attempts.
 
 The link for the challenge is: https://www.drivendata.org/competitions/66/flu-shot-learning/
