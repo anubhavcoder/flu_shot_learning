@@ -32,3 +32,7 @@ My approach takes the following steps:
 		
 		
 Then, based off my findings, I'll provide a few actionable takeaways that could be implemented to promote vaccinations, and see if there's evidence in the literature to support the recommendations.
+
+Tracking performance of models on test set (with AUC metric):
+
+1. Logistic regression, no hyperparameter tuning: 0.7984 
