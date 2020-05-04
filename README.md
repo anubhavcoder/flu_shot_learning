@@ -31,3 +31,4 @@ My approach takes the following steps:
 		- Get predictions, submit predictions
 		
 		
+Then, based off my findings, I'll provide a few actionable takeaways that could be implemented to promote vaccinations, and see if there's evidence in the literature to support the recommendations.
