@@ -36,3 +36,4 @@ Then, based off my findings, I'll provide a few actionable takeaways that could 
 Tracking performance of models on test set (with AUC metric):
 
 1. Logistic regression, no hyperparameter tuning: 0.7984 
+2. Random forest, no tuning; 0.7582
