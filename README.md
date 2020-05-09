@@ -38,9 +38,13 @@ Tracking performance of models on test set (with AUC metric):
 1. Logistic regression, no hyperparameter tuning: 0.7984 
 2. Random forest, no tuning; 0.7582
 3. Random forest, randomized cross-validation grid search hyperparameter tuning: 0.8050
+4. Logistic regression, no hyperparameter tuning, on standard-scaled data: 0.7984
 
 Things that I could try next:
 	- scaling the data (the benchmark does this, and it could result in an improvement?)
+		Doesn't make a difference?
 	- using a neural network
 	- more hyperparameter tuning for random forest
 	- using more features?
+	
+I want to squeeze out as much as I can from wrangling the data before I try and use deep learning.
