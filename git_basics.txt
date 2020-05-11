@@ -1,0 +1,12 @@
+Git basics:
+
+Steps: 
+	1. Make changes
+	2. git init (to initialize a git session locally)
+	3. (Optional) git status (see what’s changed)
+	4. (For the files you want to push) git add file1 file2 …
+	5. (For committing to permanent changes) git commit -m “Commit message”
+	6. (If connection with Github isn’t set up yet):
+		(can try this if errors persist, or if you need to link to a different Github URL): git remote rm origin
+		(Connect to Github repo): git remote add origin https://github.com/mark-torres10/outrage_classification.git
+	7. (Push to Github repo): git push -u origin master
