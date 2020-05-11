@@ -41,6 +41,7 @@ Tracking performance of models on test set (with AUC metric):
 4. Logistic regression, no hyperparameter tuning, on standard-scaled data: 0.7984
 5. Random forest, with grid search hyperparameter tuning: 0.8039
 6. Ensemble of average of predictions from logistic regression, grid-search-hypertuned random forest: 0.8056
+7. Ensemble of average of predictions from logistic regression, grid-searched hypertuned random forest, and vanilla feedforward neural network: 0.8054
 
 Things that I could try next:
 	- scaling the data (the benchmark does this, and it could result in an improvement?)
