@@ -10,7 +10,7 @@ The link for the challenge is: https://www.drivendata.org/competitions/66/flu-sh
 
 My approach takes the following steps:
 
-
+\textbf{NOTE TO SELF: SAVE MODEL WEIGHTS}
 	- Do background research, learn more about the problem at hand.
 	- Think of hypotheses to test from the data
 	- Perform exploratory data analysis (EDA) to learn more about the data
@@ -43,11 +43,6 @@ Tracking performance of models on test set (with AUC metric):
 6. Ensemble of average of predictions from logistic regression, grid-search-hypertuned random forest: 0.8056
 7. Ensemble of average of predictions from logistic regression, grid-searched hypertuned random forest, and vanilla feedforward neural network: 0.8054
 
-Things that I could try next:
-	- scaling the data (the benchmark does this, and it could result in an improvement?)
-		Doesn't make a difference?
-	- using a neural network
-	- more hyperparameter tuning for random forest
-	- using more features?
-	
-I want to squeeze out as much as I can from wrangling the data before I try and use deep learning.
+For my next steps, I would like to try:
+	- Examining which features to use (e.g., should I start with more features)
+	- Use logistic regression (it seems like using more complicated architectures only marginally improved performance, which makes sense given the size of the dataset)
