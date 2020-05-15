@@ -19,9 +19,7 @@ My approach takes the following steps:
 		- Logistic regression (as baseline)
 		- Random forest
 		- Feedforward neural network	
-	- (possible) - subset the data, run different ML models on different subsets of the data. 
-	If this gives promising results (e.g., one model architecture does better on a certain subset of 
-	the data than the other models), then we can use an ensemble of various models.
+		- Ensemble models
 	
 	- Work with test set
 		- Compare training and test set, check for things such as consistency in class balance, 
