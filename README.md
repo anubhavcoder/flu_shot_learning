@@ -10,7 +10,6 @@ The link for the challenge is: https://www.drivendata.org/competitions/66/flu-sh
 
 My approach takes the following steps:
 
-\textbf{NOTE TO SELF: SAVE MODEL WEIGHTS}
 	- Do background research, learn more about the problem at hand.
 	- Think of hypotheses to test from the data
 	- Perform exploratory data analysis (EDA) to learn more about the data
@@ -30,11 +29,28 @@ My approach takes the following steps:
 		- Run model on test set
 		- Get predictions, submit predictions
 		
-		
-Then, based off my findings, I'll provide a few actionable takeaways that could be implemented to promote vaccinations, and see if there's evidence in the literature to support the recommendations.
+From my exploratory data analysis, it seems like I found the following results:
+
+Some of the preliminary findings from the exploratory data analysis are: 
+
+1. Whether or not a doctor recommended a person to get a vaccine was the strongest predictor of if a person got either the H1N1 or the seasonal flu vaccine. However, this may not necessarily be causal. For example, this might just indicate that people who go see the doctor are inclined to be more careful with their health - so, our observed effect might be due to a selection bias. 
+
+2. People without health insurance are less likely to get the seasonal flu vaccine, though this just might be due to the fact that people without health insurance are less likely to see a doctor and therefore less likely to be advised that they need the flu vaccine. 
+
+3. Healthcare workers are more likely to get the seasonal flu vaccine than non-healthcare workers, but it doesn't seem to be due to the fact that they think the seasonal flu is more dangerous than do their counterparts. 
+
+4. Having children in the household somewhat predicts if a person is likely to get the H1N1 or seasonal flu vaccine - but this seems to only be the case if one has a very young child (e.g., 6 months old) who has yet to develop a strong immune system. 
+
+5. Those with pre-existing conditions see themselves as more likely to get sick from either the H1N1 or the seasonal flu, and they're also more likely to get the associated vaccines (likely as a result of these beliefs).
+
+From this, it seems like the two most relevant interventions for promoting vaccine adoption are:
+
+1. Increase access to and spread of information regarding the flu - as people's awareness of either the H1N1 or the seasonal flu increases, they tend to be more likely to get the vaccine. 
+
+2. Get people to see their doctors - whether or not a doctor told someone to get a vaccine was the strongest predictor of whether or not they got the vaccine. It is possible that people who see their doctor are more wary about their health in the first place, just as it is possible that poeple who weren't recommended by their doctor to get the vaccine just hadn't seen their doctor in the first place. However, it would logically make sense that seeing a doctor would nudge a person to get the vaccine if the doctor were to advise them to do so. 
 
 Tracking performance of models on test set (with AUC metric):
-hisq
+
 1. Logistic regression, no hyperparameter tuning: 0.7984 
 2. Random forest, no tuning; 0.7582
 3. Random forest, randomized cross-validation grid search hyperparameter tuning: 0.8050
