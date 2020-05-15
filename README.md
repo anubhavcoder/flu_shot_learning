@@ -37,7 +37,7 @@ Some of the preliminary findings from the exploratory data analysis are:
 
 3. Healthcare workers are more likely to get the seasonal flu vaccine than non-healthcare workers, but it doesn't seem to be due to the fact that they think the seasonal flu is more dangerous than do their counterparts. 
 
-4. Having children in the household somewhat predicts if a person is likely to get the H1N1 or seasonal flu vaccine - but this seems to only be the case if one has a very young child (e.g., 6 months old) who has yet to develop a strong immune system. 
+4. Having children in the household somewhat predicts if a person is likely to get the H1N1 or seasonal flu vaccine - but this seems to only be the case if one has a very young child (e.g., 6 months old) who has yet to develop a strong immune system. This finding was unusual because past literature suggested that those with children would be more likely to get a vaccine for both themselves and their children (e.g., https://www.webmd.com/cold-and-flu/news/20181210/almost-half-of-us-adults-to-skip-flu-shot#1; https://www.sciencedirect.com/science/article/pii/S0264410X10017445?via%3Dihub)
 
 5. Those with pre-existing conditions see themselves as more likely to get sick from either the H1N1 or the seasonal flu, and they're also more likely to get the associated vaccines (likely as a result of these beliefs).
 
